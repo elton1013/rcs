@@ -123,12 +123,4 @@ if ! shopt -oq posix; then
 fi
 
 export EDITOR=vim
-#export PYTHONPATH=$HOME/Scripts/industrial
-#export PSXPATH="/mnt/Games - PSP - DS/PSX" 
-export PSXPATH="/media/arteen/Games - PSP - DS/PSX" 
-
-export JAVA_HOME=/usr/bin/java
-
-export PATH=$PATH:~/.local/bin/
-export PATH=$PATH:~/Scripts/kotlinc/bin/
 
