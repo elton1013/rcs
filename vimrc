@@ -10,11 +10,12 @@ let g:netrw_banner=0
 "let g:netrw_liststyle=3
 let g:netrw_sizestyle="H"
 "let g:netrw_sort_by="time"
+let g:netrw_altv=1
 
 "
-set nobackup
-set noswapfile
-set noundofile
+"set nobackup
+"set noswapfile
+"set noundofile
 set hlsearch
 set ignorecase
 set smartcase
@@ -30,6 +31,7 @@ set cursorline
 set lazyredraw
 set breakindent
 set history=100
+"set wildmenu
 
 set laststatus=2
 set statusline+=%<%F\ %h%m%r
@@ -42,6 +44,8 @@ nnoremap <space> <Nop>
 let mapleader = " "
 
 nnoremap <silent> <leader>w <c-w>
+nnoremap <silent> <leader>U gUiw
+nnoremap <silent> <leader>u guiw
 nnoremap <silent> <leader>q :q<cr>
 nnoremap <silent> <leader>h :noh<cr>
 nnoremap <silent> <leader>r :set relativenumber!<cr>
